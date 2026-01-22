@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	background-color: var(--bg-color);
+	color: var(--main-font-color);
+	font-family: var(--font-family-main);
+	line-height: 1.6;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: color 0.3s ease;
+
+	&:hover {
+		color: var(--accent-color);
+	}
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	transition: all 0.3s ease;
+}
+
+.container {
+	padding: var(--container-min-padding);
+	min-width: 100%;
+	@media (min-width: 724px) {
+		padding: var(--container-max-padding);
+	}
+}
+
+.app-column {
+	max-width: var(--app-max-width);
+}
