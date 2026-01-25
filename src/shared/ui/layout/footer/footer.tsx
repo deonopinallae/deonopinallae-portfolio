@@ -12,13 +12,10 @@ export const Footer = () => {
 						© {currentYear} Tishchenko Alisa. All rights reserved.
 					</p>
 					<div className={styles.links}>
-						<Link href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+						<Link href="https://github.com/deonopinallae" target="_blank" rel="noopener noreferrer" className={styles.link}>
 							GitHub
 						</Link>
-						<Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
-							LinkedIn
-						</Link>
-						<a href="mailto:alisa@example.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+						<a href="deonopinallae@yandex.ru" target="_blank" rel="noopener noreferrer" className={styles.link}>
 							Email
 						</a>
 					</div>
