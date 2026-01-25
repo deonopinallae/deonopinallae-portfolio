@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './styles.module.scss'
 
 export const Footer = () => {
@@ -11,13 +12,13 @@ export const Footer = () => {
 						© {currentYear} Tishchenko Alisa. All rights reserved.
 					</p>
 					<div className={styles.links}>
-						<a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+						<Link href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
 							GitHub
-						</a>
-						<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
+						</Link>
+						<Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
 							LinkedIn
-						</a>
-						<a href="mailto:alisa@example.com" className={styles.link}>
+						</Link>
+						<a href="mailto:alisa@example.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
 							Email
 						</a>
 					</div>

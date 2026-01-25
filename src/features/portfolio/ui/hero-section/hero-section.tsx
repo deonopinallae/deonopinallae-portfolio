@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './hero-section.module.scss';
 
 export default function HeroSection() {
@@ -12,13 +13,13 @@ export default function HeroSection() {
             Frontend Developer crafting elegant digital experiences
           </p>
           <p className={styles.description}>
-            I build responsive, performant web applications with React and Next.js. 
+            I build responsive, performant web applications with Next.js. 
             Passionate about clean code, user experience, and minimalist design.
           </p>
           <div className={styles.cta}>
-            <a href="#work" className={styles.button}>
+            <Link href="#work" className={styles.button}>
               View My Work
-            </a>
+            </Link>
           </div>
         </div>
       </div>

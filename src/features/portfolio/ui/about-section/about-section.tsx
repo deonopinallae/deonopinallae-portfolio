@@ -41,9 +41,9 @@ export default function AboutSection() {
             <div className={styles.skillCategory}>
               <h4>Tools & Workflow</h4>
               <ul>
-                <li>Git & GitHub</li>
+                <li>ChatGPT & GitHub Copilot</li>
+                <li>Git</li>
                 <li>Figma</li>
-                <li>GitHub Copilot</li>
                 <li>VS Code</li>
               </ul>
             </div>

@@ -6,7 +6,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <span className={styles.name}>Alisa</span>
+          <span className={styles.name}>Alisa Tishchenko</span>
         </Link>
         
         <nav className={styles.nav}>

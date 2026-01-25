@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Section } from '@/shared/ui/layout/section';
 import styles from './contact-section.module.scss';
 
@@ -10,24 +11,19 @@ export default function ContactSection() {
         </p>
 
         <div className={styles.contactMethods}>
-          <a href="mailto:alisa@example.com" className={styles.contactCard}>
+          <Link href="deonopinallae@yandex.ru" target="_blank" rel="noopener noreferrer" className={styles.contactCard}>
             <h3>Email</h3>
-            <p>alisa@example.com</p>
-          </a>
+            <p>deonopinallae@yandex.ru</p>
+          </Link>
 
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.contactCard}>
-            <h3>LinkedIn</h3>
-            <p>Connect with me</p>
-          </a>
-
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.contactCard}>
+          <Link href="https://github.com/deonopinallae" target="_blank" rel="noopener noreferrer" className={styles.contactCard}>
             <h3>GitHub</h3>
             <p>Check my work</p>
-          </a>
+          </Link>
         </div>
 
         <div className={styles.cta}>
-          <a href="mailto:alisa@example.com" className={styles.button}>
+          <a href="deonopinallae@yandex.ru" target="_blank" rel="noopener noreferrer" className={styles.button}>
             Send Me an Email
           </a>
         </div>
