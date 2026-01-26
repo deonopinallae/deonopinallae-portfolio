@@ -6,7 +6,7 @@
     "dev": "next dev -p 3000",
     "build": "next build && touch out/.nojekyll",
     "start": "next start",
-    "export": "next build && next export",
+    "export": "npm run build",
     "deploy": "npm run export && npx gh-pages -d out -b gh-pages -r https://github.com/deonopinallae/deonopinallae-portfolio.git"
   },
   "dependencies": {
