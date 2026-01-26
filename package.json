@@ -6,7 +6,8 @@
     "dev": "next dev -p 3000",
     "build": "next build && touch out/.nojekyll",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "deploy": "npm run export && npx gh-pages -d out -b gh-pages -r https://github.com/deonopinallae/deonopinallae-portfolio.git"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -30,6 +31,7 @@
     "sass": "^1.91.0",
     "sass-embedded": "^1.93.3",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "gh-pages": "^5.0.0"
   }
 }
