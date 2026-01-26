@@ -5,11 +5,11 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev -p 3000",
-		"build": "next build && touch out/.nojekyll",
-		"start": "next start",
-		"export": "npm run build",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		"build": "next build",
+		"export": "next build && next export",
+		"predeploy": "npm run export",
+		"deploy": "gh-pages -d out -b gh-pages -r https://github.com/deonopinallae/deonopinallae-portfolio.git",
+		"start": "next start"
 	},
 	"dependencies": {
 		"@hookform/resolvers": "^5.2.2",
