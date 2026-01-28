@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
 	output: 'export',
 	// GitHub Pages repo path
 	basePath: '/deonopinallae-portfolio',
-	assetPrefix: '/deonopinallae-portfolio',
 	trailingSlash: true,
 	images: {
 		unoptimized: true,
