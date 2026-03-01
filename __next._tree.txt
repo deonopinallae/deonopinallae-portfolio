@@ -1,0 +1,4 @@
+:HL["/deonopinallae-portfolio/_next/static/css/7add516ede941bfc.css","style"]
+:HL["/deonopinallae-portfolio/_next/static/css/ba246716268571ae.css","style"]
+:HL["/deonopinallae-portfolio/_next/static/css/5faa96fa12adebd5.css","style"]
+0:{"buildId":"5Q3yiJ7m_lP8zyu5bV1IJ","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(home)","paramType":null,"paramKey":"(home)","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
