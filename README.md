@@ -22,21 +22,18 @@
 - React 19
 - TypeScript
 
-### Состояние и формы
+### Состояние
 
 - Zustand
 - TanStack React Query
-- React Hook Form
-- Yup
 
 ### Стилизация
 
-- SCSS / CSS Modules
+- SCSS Modules
 - Tailwind CSS 4
 
 ### Инструменты и инфраструктура
 
 - ESLint
 - Prettier
-- GitHub Pages (статический экспорт)
-- GitHub Actions (автоматический деплой)
+- GitHub Actions
