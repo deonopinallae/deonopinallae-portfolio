@@ -1,6 +1,6 @@
-@import 'tailwindcss';
-@import './vars.scss';
-@import './globals.scss';
+@use 'tailwindcss';
+@use './vars.scss';
+@use './globals.scss';
 
 *,
 *::after,
@@ -27,7 +27,12 @@ section {
 	width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 600;
 }
 

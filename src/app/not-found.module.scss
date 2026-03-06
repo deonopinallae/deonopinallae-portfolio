@@ -1,11 +1,13 @@
-@import '@/styles/vars';
-
 .container {
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(135deg, rgba(168, 230, 217, 0.1) 0%, rgba(245, 245, 245, 0.5) 100%);
+	background: linear-gradient(
+		135deg,
+		rgba(168, 230, 217, 0.1) 0%,
+		rgba(245, 245, 245, 0.5) 100%
+	);
 	padding: 2rem;
 }
 
